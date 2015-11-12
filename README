@@ -3,6 +3,10 @@ SWO Recorder
 SWO recorder is a tool to capture traces from SWO.
 These traces should be post processed later by SWV tool.
 
+Dependencies:
+SWO Recorder use python-daemon. To install it:
+ $ sudo pip install python-daemon
+
 To record traces:
 jlink_swo_recorder.py start
 
