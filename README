@@ -2,3 +2,20 @@ SWO Recorder
 
 SWO recorder is a tool to capture traces from SWO.
 These traces should be post processed later by SWV tool.
+
+To record traces:
+jlink_swo_recorder.py start
+
+To stop to record:
+jlink_swo_recorder.py stop
+
+Environment varaibles:
+SWO recorder use environment variables to change its default behavior.
+JLINK_PATH:		default /opt/jlink
+	Folder where JLinkGDBServer is installed
+FW_RESET:		default 1
+	If set to 1, reset the the target. It is not recommended to disable the reset.
+RECORDER_DEBUG:	default 0
+	If set to 1, print more logs
+TRACE_OUTPUT:	default $PWD/traces
+	set the filename of traces
