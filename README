@@ -1,0 +1,4 @@
+SWO Recorder
+
+SWO recorder is a tool to capture traces from SWO.
+These traces should be post processed later by SWV tool.
